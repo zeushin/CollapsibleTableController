@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C5F64EDDFB57955FE696575503E296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		386B79B624F06503188FC3A8CDA6F55A /* CollapsibleTableController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB3AB3804A5A6F1A8E1C69E9E81479F /* CollapsibleTableController-dummy.m */; };
+		5A47712E216F4FE90007724A /* CollapsibleTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712B216F4FE80007724A /* CollapsibleTableController.swift */; };
+		5A47712F216F4FE90007724A /* CollapsibleTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712B216F4FE80007724A /* CollapsibleTableController.swift */; };
+		5A477130216F4FE90007724A /* CollapsibleTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712B216F4FE80007724A /* CollapsibleTableController.swift */; };
+		5A477131216F4FE90007724A /* CollapsibleTableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712C216F4FE90007724A /* CollapsibleTableProtocols.swift */; };
+		5A477132216F4FE90007724A /* CollapsibleTableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712C216F4FE90007724A /* CollapsibleTableProtocols.swift */; };
+		5A477133216F4FE90007724A /* CollapsibleTableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712C216F4FE90007724A /* CollapsibleTableProtocols.swift */; };
+		5A477134216F4FE90007724A /* CollapsibleIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712D216F4FE90007724A /* CollapsibleIndexPath.swift */; };
+		5A477135216F4FE90007724A /* CollapsibleIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712D216F4FE90007724A /* CollapsibleIndexPath.swift */; };
+		5A477136216F4FE90007724A /* CollapsibleIndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A47712D216F4FE90007724A /* CollapsibleIndexPath.swift */; };
+		5CBAEA3DB7DEB798B83171A32CBD2C4E /* Pods-CollapsibleTableController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C012E09E48005EAA22D73CB20C1FF2A /* Pods-CollapsibleTableController_Example-dummy.m */; };
+		64B3EF54D7A56A4CD168969F258A0704 /* CollapsibleTableController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 999342A99DCF5525552697BDAEE6C9D8 /* CollapsibleTableController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75B0B5675CE04B7FC297B8549D9DE63C /* Pods-CollapsibleTableController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24EFB547372CD9933867A5CCD69C0D25 /* Pods-CollapsibleTableController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E0546991E274D8CA56C59787CA29C93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		9388F8A0D9400957AE155AAF637591FF /* Pods-CollapsibleTableController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A4D941CAB53B7CB773CC726DBD75D7 /* Pods-CollapsibleTableController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D92BC20E7C236D1D93100402B5B2B395 /* Pods-CollapsibleTableController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A19FB9D62CEEFC57B78E62E5A45EC319 /* Pods-CollapsibleTableController_Tests-dummy.m */; };
+		DFF8D5E487D14C27E2FAD9D6794EA806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F9605A718350E2B721670AA80FEB241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BCBB8CADA69E4D03B2EFB2775F789DE;
+			remoteInfo = CollapsibleTableController;
+		};
+		809B3DF3371CD21804CD058480E41B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F36726A1366069D88DCB1F74A763A71;
+			remoteInfo = "Pods-CollapsibleTableController_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0182DDC33B9D802FF608B7310B559561 /* CollapsibleTableController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CollapsibleTableController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		03FCBD284F61A7666EE64B1BADD9397E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0D22E9C53F2D489036DF8FC3C4664285 /* Pods-CollapsibleTableController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTableController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0DB3AB3804A5A6F1A8E1C69E9E81479F /* CollapsibleTableController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CollapsibleTableController-dummy.m"; sourceTree = "<group>"; };
+		1C012E09E48005EAA22D73CB20C1FF2A /* Pods-CollapsibleTableController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CollapsibleTableController_Example-dummy.m"; sourceTree = "<group>"; };
+		1C311EB174506BD7E3CE0812AF1A253D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		24EFB547372CD9933867A5CCD69C0D25 /* Pods-CollapsibleTableController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CollapsibleTableController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		28595D906E2C88159FC312EDA9E7BC42 /* Pods-CollapsibleTableController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CollapsibleTableController_Tests.modulemap"; sourceTree = "<group>"; };
+		2BCD103786E915168B64A66BE3EF027E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316427A00FE1815DE86803E83566CB02 /* Pods-CollapsibleTableController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollapsibleTableController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4399092AFD104493B9CFA27C15F97BBF /* Pods-CollapsibleTableController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CollapsibleTableController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45272933FF979C71F725C6DC5E340EC7 /* Pods-CollapsibleTableController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTableController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		45643F065731884AFBDAF119DB8CFA41 /* CollapsibleTableController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CollapsibleTableController.xcconfig; sourceTree = "<group>"; };
+		51EAF833AB981855D95F393759E2FB27 /* Pods-CollapsibleTableController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTableController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A47712B216F4FE80007724A /* CollapsibleTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollapsibleTableController.swift; path = CollapsibleTableController/Classes/CollapsibleTableController.swift; sourceTree = "<group>"; };
+		5A47712C216F4FE90007724A /* CollapsibleTableProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollapsibleTableProtocols.swift; path = CollapsibleTableController/Classes/CollapsibleTableProtocols.swift; sourceTree = "<group>"; };
+		5A47712D216F4FE90007724A /* CollapsibleIndexPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollapsibleIndexPath.swift; path = CollapsibleTableController/Classes/CollapsibleIndexPath.swift; sourceTree = "<group>"; };
+		82C0D9190BDB84C189252F037BCD4F60 /* CollapsibleTableController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CollapsibleTableController.modulemap; sourceTree = "<group>"; };
+		89B9376CCBA4E10271B7D28932B26B9B /* Pods-CollapsibleTableController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTableController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC63820C4E975DC80AA0CF6867486D0 /* Pods-CollapsibleTableController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTableController_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		982D34A3C923B0A460A0B18127291B9B /* Pods-CollapsibleTableController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTableController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		999342A99DCF5525552697BDAEE6C9D8 /* CollapsibleTableController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableController-umbrella.h"; sourceTree = "<group>"; };
+		A0CB0B1FD02088EF8168FCAFCCC42E7D /* Pods-CollapsibleTableController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CollapsibleTableController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A19FB9D62CEEFC57B78E62E5A45EC319 /* Pods-CollapsibleTableController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CollapsibleTableController_Tests-dummy.m"; sourceTree = "<group>"; };
+		B171EB4BBF8A60CF0D858FB30B8E833D /* Pods_CollapsibleTableController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsibleTableController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB34D751167B571D4FEA95A3C68A8971 /* Pods-CollapsibleTableController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CollapsibleTableController_Example.modulemap"; sourceTree = "<group>"; };
+		BB5C7D5CED5D39213D3DABC65A888214 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFC6A2249529FD9347C5538EBF487AC /* Pods-CollapsibleTableController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CollapsibleTableController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C73E4EF3D1318EF307936DC9B261CA26 /* CollapsibleTableController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CollapsibleTableController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A4D941CAB53B7CB773CC726DBD75D7 /* Pods-CollapsibleTableController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CollapsibleTableController_Example-umbrella.h"; sourceTree = "<group>"; };
+		D8B911FF7DF5BCA4A558AAC790266D3A /* CollapsibleTableController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CollapsibleTableController-prefix.pch"; sourceTree = "<group>"; };
+		D93414F975BC04FE1AF81C6A28627DBB /* Pods-CollapsibleTableController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CollapsibleTableController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC2244A8795C6680178AD925C23B83BD /* Pods-CollapsibleTableController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CollapsibleTableController_Example-resources.sh"; sourceTree = "<group>"; };
+		E886BAD280F95D6E7E462B97E8A57045 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFEB96F48EF9E6AD88DC21567971017F /* Pods_CollapsibleTableController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollapsibleTableController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FDDE3876174859FA5A5B0377EB65C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF8D5E487D14C27E2FAD9D6794EA806 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46A091B85380A9288761411FA842C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C5F64EDDFB57955FE696575503E296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF774F315BDBEFC6443DE08B51A119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0546991E274D8CA56C59787CA29C93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03937DD30A4FF621B8D513316BE18439 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C0D9190BDB84C189252F037BCD4F60 /* CollapsibleTableController.modulemap */,
+				45643F065731884AFBDAF119DB8CFA41 /* CollapsibleTableController.xcconfig */,
+				0DB3AB3804A5A6F1A8E1C69E9E81479F /* CollapsibleTableController-dummy.m */,
+				D8B911FF7DF5BCA4A558AAC790266D3A /* CollapsibleTableController-prefix.pch */,
+				999342A99DCF5525552697BDAEE6C9D8 /* CollapsibleTableController-umbrella.h */,
+				2BCD103786E915168B64A66BE3EF027E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CollapsibleTableController";
+			sourceTree = "<group>";
+		};
+		068B915570DD2CB2D43994E6D51C507E /* Pods-CollapsibleTableController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C7D5CED5D39213D3DABC65A888214 /* Info.plist */,
+				28595D906E2C88159FC312EDA9E7BC42 /* Pods-CollapsibleTableController_Tests.modulemap */,
+				BFFC6A2249529FD9347C5538EBF487AC /* Pods-CollapsibleTableController_Tests-acknowledgements.markdown */,
+				316427A00FE1815DE86803E83566CB02 /* Pods-CollapsibleTableController_Tests-acknowledgements.plist */,
+				A19FB9D62CEEFC57B78E62E5A45EC319 /* Pods-CollapsibleTableController_Tests-dummy.m */,
+				51EAF833AB981855D95F393759E2FB27 /* Pods-CollapsibleTableController_Tests-frameworks.sh */,
+				8FC63820C4E975DC80AA0CF6867486D0 /* Pods-CollapsibleTableController_Tests-resources.sh */,
+				24EFB547372CD9933867A5CCD69C0D25 /* Pods-CollapsibleTableController_Tests-umbrella.h */,
+				89B9376CCBA4E10271B7D28932B26B9B /* Pods-CollapsibleTableController_Tests.debug.xcconfig */,
+				A0CB0B1FD02088EF8168FCAFCCC42E7D /* Pods-CollapsibleTableController_Tests.release.xcconfig */,
+			);
+			name = "Pods-CollapsibleTableController_Tests";
+			path = "Target Support Files/Pods-CollapsibleTableController_Tests";
+			sourceTree = "<group>";
+		};
+		2147B943328BB1C15AF924F13E831888 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA01A9EA836D23F78598F7BB1CE72F9A /* CollapsibleTableController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2EBD72BC470B4EB4C0A2EEB4B7847BBD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42AAFE9BEAFA9E884BEEB8F758D4D971 /* Pods-CollapsibleTableController_Example */,
+				068B915570DD2CB2D43994E6D51C507E /* Pods-CollapsibleTableController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42AAFE9BEAFA9E884BEEB8F758D4D971 /* Pods-CollapsibleTableController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E886BAD280F95D6E7E462B97E8A57045 /* Info.plist */,
+				BB34D751167B571D4FEA95A3C68A8971 /* Pods-CollapsibleTableController_Example.modulemap */,
+				4399092AFD104493B9CFA27C15F97BBF /* Pods-CollapsibleTableController_Example-acknowledgements.markdown */,
+				D93414F975BC04FE1AF81C6A28627DBB /* Pods-CollapsibleTableController_Example-acknowledgements.plist */,
+				1C012E09E48005EAA22D73CB20C1FF2A /* Pods-CollapsibleTableController_Example-dummy.m */,
+				45272933FF979C71F725C6DC5E340EC7 /* Pods-CollapsibleTableController_Example-frameworks.sh */,
+				DC2244A8795C6680178AD925C23B83BD /* Pods-CollapsibleTableController_Example-resources.sh */,
+				D4A4D941CAB53B7CB773CC726DBD75D7 /* Pods-CollapsibleTableController_Example-umbrella.h */,
+				982D34A3C923B0A460A0B18127291B9B /* Pods-CollapsibleTableController_Example.debug.xcconfig */,
+				0D22E9C53F2D489036DF8FC3C4664285 /* Pods-CollapsibleTableController_Example.release.xcconfig */,
+			);
+			name = "Pods-CollapsibleTableController_Example";
+			path = "Target Support Files/Pods-CollapsibleTableController_Example";
+			sourceTree = "<group>";
+		};
+		438FAA30187227450307875CE757335C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C73E4EF3D1318EF307936DC9B261CA26 /* CollapsibleTableController.framework */,
+				B171EB4BBF8A60CF0D858FB30B8E833D /* Pods_CollapsibleTableController_Example.framework */,
+				EFEB96F48EF9E6AD88DC21567971017F /* Pods_CollapsibleTableController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2147B943328BB1C15AF924F13E831888 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				438FAA30187227450307875CE757335C /* Products */,
+				2EBD72BC470B4EB4C0A2EEB4B7847BBD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA01A9EA836D23F78598F7BB1CE72F9A /* CollapsibleTableController */ = {
+			isa = PBXGroup;
+			children = (
+				5A47712D216F4FE90007724A /* CollapsibleIndexPath.swift */,
+				5A47712B216F4FE80007724A /* CollapsibleTableController.swift */,
+				5A47712C216F4FE90007724A /* CollapsibleTableProtocols.swift */,
+				FE98C6D5140D46F1A01BFF134F790772 /* Pod */,
+				03937DD30A4FF621B8D513316BE18439 /* Support Files */,
+			);
+			name = CollapsibleTableController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE98C6D5140D46F1A01BFF134F790772 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0182DDC33B9D802FF608B7310B559561 /* CollapsibleTableController.podspec */,
+				03FCBD284F61A7666EE64B1BADD9397E /* LICENSE */,
+				1C311EB174506BD7E3CE0812AF1A253D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		495D13199491BC44AF23AA701EB02A4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9388F8A0D9400957AE155AAF637591FF /* Pods-CollapsibleTableController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562512789AE43F9FA0A30A6AF9D973E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B0B5675CE04B7FC297B8549D9DE63C /* Pods-CollapsibleTableController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA3C78EBF281CB4DD38A8CE319E1966 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B3EF54D7A56A4CD168969F258A0704 /* CollapsibleTableController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BCBB8CADA69E4D03B2EFB2775F789DE /* CollapsibleTableController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9131061AF2BBB42F10F5DF511B9BCD7 /* Build configuration list for PBXNativeTarget "CollapsibleTableController" */;
+			buildPhases = (
+				8DA3C78EBF281CB4DD38A8CE319E1966 /* Headers */,
+				5F030ECEB98AB23F71DDF22131F4DDB6 /* Sources */,
+				DCDF774F315BDBEFC6443DE08B51A119 /* Frameworks */,
+				B2E078CBB0C535377B3CE27267730C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleTableController;
+			productName = CollapsibleTableController;
+			productReference = C73E4EF3D1318EF307936DC9B261CA26 /* CollapsibleTableController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F36726A1366069D88DCB1F74A763A71 /* Pods-CollapsibleTableController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4DC4BD816E8D326A8F0B3A53258D55 /* Build configuration list for PBXNativeTarget "Pods-CollapsibleTableController_Example" */;
+			buildPhases = (
+				495D13199491BC44AF23AA701EB02A4B /* Headers */,
+				E2FD8686E860F84AB1BB839CBE72A5B5 /* Sources */,
+				7FDDE3876174859FA5A5B0377EB65C1F /* Frameworks */,
+				70BEBC24FBB3FCCB4F0D9C4C27A89F5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CF95054A126B60A056E4288CE5C137 /* PBXTargetDependency */,
+			);
+			name = "Pods-CollapsibleTableController_Example";
+			productName = "Pods-CollapsibleTableController_Example";
+			productReference = B171EB4BBF8A60CF0D858FB30B8E833D /* Pods_CollapsibleTableController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A63FECAF58977EC37722DF327EEA62C /* Pods-CollapsibleTableController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B8BF7D448B9BB488EC73175B5FD04B /* Build configuration list for PBXNativeTarget "Pods-CollapsibleTableController_Tests" */;
+			buildPhases = (
+				562512789AE43F9FA0A30A6AF9D973E4 /* Headers */,
+				1C0D322CF4EBF17642A6263643027E0F /* Sources */,
+				B46A091B85380A9288761411FA842C03 /* Frameworks */,
+				AFF660FF860CBF8ED4A6C438E88EAE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7A0B5A9B1C2E29341C162EF73BCB0BB /* PBXTargetDependency */,
+			);
+			name = "Pods-CollapsibleTableController_Tests";
+			productName = "Pods-CollapsibleTableController_Tests";
+			productReference = EFEB96F48EF9E6AD88DC21567971017F /* Pods_CollapsibleTableController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					3BCBB8CADA69E4D03B2EFB2775F789DE = {
+						LastSwiftMigration = 1000;
+					};
+					3F36726A1366069D88DCB1F74A763A71 = {
+						LastSwiftMigration = 1000;
+					};
+					6A63FECAF58977EC37722DF327EEA62C = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 438FAA30187227450307875CE757335C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BCBB8CADA69E4D03B2EFB2775F789DE /* CollapsibleTableController */,
+				3F36726A1366069D88DCB1F74A763A71 /* Pods-CollapsibleTableController_Example */,
+				6A63FECAF58977EC37722DF327EEA62C /* Pods-CollapsibleTableController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70BEBC24FBB3FCCB4F0D9C4C27A89F5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF660FF860CBF8ED4A6C438E88EAE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E078CBB0C535377B3CE27267730C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C0D322CF4EBF17642A6263643027E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A477136216F4FE90007724A /* CollapsibleIndexPath.swift in Sources */,
+				5A477130216F4FE90007724A /* CollapsibleTableController.swift in Sources */,
+				5A477133216F4FE90007724A /* CollapsibleTableProtocols.swift in Sources */,
+				D92BC20E7C236D1D93100402B5B2B395 /* Pods-CollapsibleTableController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F030ECEB98AB23F71DDF22131F4DDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A477134216F4FE90007724A /* CollapsibleIndexPath.swift in Sources */,
+				5A47712E216F4FE90007724A /* CollapsibleTableController.swift in Sources */,
+				5A477131216F4FE90007724A /* CollapsibleTableProtocols.swift in Sources */,
+				386B79B624F06503188FC3A8CDA6F55A /* CollapsibleTableController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FD8686E860F84AB1BB839CBE72A5B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A477135216F4FE90007724A /* CollapsibleIndexPath.swift in Sources */,
+				5A47712F216F4FE90007724A /* CollapsibleTableController.swift in Sources */,
+				5A477132216F4FE90007724A /* CollapsibleTableProtocols.swift in Sources */,
+				5CBAEA3DB7DEB798B83171A32CBD2C4E /* Pods-CollapsibleTableController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55CF95054A126B60A056E4288CE5C137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CollapsibleTableController;
+			target = 3BCBB8CADA69E4D03B2EFB2775F789DE /* CollapsibleTableController */;
+			targetProxy = 6F9605A718350E2B721670AA80FEB241 /* PBXContainerItemProxy */;
+		};
+		B7A0B5A9B1C2E29341C162EF73BCB0BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CollapsibleTableController_Example";
+			target = 3F36726A1366069D88DCB1F74A763A71 /* Pods-CollapsibleTableController_Example */;
+			targetProxy = 809B3DF3371CD21804CD058480E41B98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CA3625F5313BA6B9C11A3FE6D22EEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982D34A3C923B0A460A0B18127291B9B /* Pods-CollapsibleTableController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CollapsibleTableController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CollapsibleTableController_Example/Pods-CollapsibleTableController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0EBB6495860D27B97D3C26B8E223EA5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45643F065731884AFBDAF119DB8CFA41 /* CollapsibleTableController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CollapsibleTableController/CollapsibleTableController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CollapsibleTableController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CollapsibleTableController/CollapsibleTableController.modulemap";
+				PRODUCT_MODULE_NAME = CollapsibleTableController;
+				PRODUCT_NAME = CollapsibleTableController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12F6840C5B07E0744AA21D399BF735BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CB0B1FD02088EF8168FCAFCCC42E7D /* Pods-CollapsibleTableController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CollapsibleTableController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CollapsibleTableController_Tests/Pods-CollapsibleTableController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32599CBC195A3CA9D6C4C6F6CC2CEED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B9376CCBA4E10271B7D28932B26B9B /* Pods-CollapsibleTableController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CollapsibleTableController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CollapsibleTableController_Tests/Pods-CollapsibleTableController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B675BACE37E5F85A122EE63554C3C6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D22E9C53F2D489036DF8FC3C4664285 /* Pods-CollapsibleTableController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CollapsibleTableController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CollapsibleTableController_Example/Pods-CollapsibleTableController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D65B69E5A1B6E09B97749756913B8B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45643F065731884AFBDAF119DB8CFA41 /* CollapsibleTableController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CollapsibleTableController/CollapsibleTableController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CollapsibleTableController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CollapsibleTableController/CollapsibleTableController.modulemap";
+				PRODUCT_MODULE_NAME = CollapsibleTableController;
+				PRODUCT_NAME = CollapsibleTableController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B8BF7D448B9BB488EC73175B5FD04B /* Build configuration list for PBXNativeTarget "Pods-CollapsibleTableController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32599CBC195A3CA9D6C4C6F6CC2CEED9 /* Debug */,
+				12F6840C5B07E0744AA21D399BF735BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9131061AF2BBB42F10F5DF511B9BCD7 /* Build configuration list for PBXNativeTarget "CollapsibleTableController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EBB6495860D27B97D3C26B8E223EA5D /* Debug */,
+				D65B69E5A1B6E09B97749756913B8B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4DC4BD816E8D326A8F0B3A53258D55 /* Build configuration list for PBXNativeTarget "Pods-CollapsibleTableController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA3625F5313BA6B9C11A3FE6D22EEC8 /* Debug */,
+				B675BACE37E5F85A122EE63554C3C6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

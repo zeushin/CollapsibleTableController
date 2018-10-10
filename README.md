@@ -1,6 +1,6 @@
 # CollapsibleTableController
 
-[![CI Status](https://img.shields.io/travis/beomcheol/CollapsibleTableController.svg?style=flat)](https://travis-ci.org/beomcheol/CollapsibleTableController)
+[![CI Status](https://img.shields.io/travis/Masher/CollapsibleTableController.svg?style=flat)](https://travis-ci.org/Masher/CollapsibleTableController)
 [![Version](https://img.shields.io/cocoapods/v/CollapsibleTableController.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTableController)
 [![License](https://img.shields.io/cocoapods/l/CollapsibleTableController.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTableController)
 [![Platform](https://img.shields.io/cocoapods/p/CollapsibleTableController.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTableController)
@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+<img src="https://github.com/zeushin/CollapsibleTableController/blob/master/CollapsibleTableController.gif" />
 
 ## Installation
 
@@ -22,7 +22,7 @@ pod 'CollapsibleTableController'
 
 ## Author
 
-beomcheol, beomcheol.shin@rgpkorea.co.kr
+Masher, zeushin@gmail.com
 
 ## License
 

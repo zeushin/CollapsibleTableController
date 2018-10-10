@@ -1,0 +1,16 @@
+PODS:
+  - CollapsibleTableController (0.1.0)
+
+DEPENDENCIES:
+  - CollapsibleTableController (from `../`)
+
+EXTERNAL SOURCES:
+  CollapsibleTableController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CollapsibleTableController: 83b814990d5617d42ee2046103bdd4d37343cbf7
+
+PODFILE CHECKSUM: ce820728ebc29190c6fe92799238527f17a870b7
+
+COCOAPODS: 1.5.3

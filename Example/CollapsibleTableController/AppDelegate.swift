@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  CollapsibleTableController
 //
-//  Created by beomcheol on 10/10/2018.
-//  Copyright (c) 2018 beomcheol. All rights reserved.
+//  Created by Masher on 10/10/2018.
+//  Copyright (c) 2018 Masher.dev. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

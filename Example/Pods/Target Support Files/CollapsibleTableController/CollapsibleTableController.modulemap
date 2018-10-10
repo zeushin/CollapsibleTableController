@@ -1,0 +1,6 @@
+framework module CollapsibleTableController {
+  umbrella header "CollapsibleTableController-umbrella.h"
+
+  export *
+  module * { export * }
+}

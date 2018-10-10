@@ -1,0 +1,6 @@
+framework module Pods_CollapsibleTableController_Tests {
+  umbrella header "Pods-CollapsibleTableController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
