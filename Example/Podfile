@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CollapsibleTableController_Example' do
+  pod 'CollapsibleTableController', :path => '../'
+
+  target 'CollapsibleTableController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
