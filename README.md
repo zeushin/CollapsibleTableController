@@ -1,6 +1,6 @@
 # CollapsibleTableController
 
-[![CI Status](https://img.shields.io/travis/Masher/CollapsibleTableController.svg?style=flat)](https://travis-ci.org/Masher/CollapsibleTableController)
+[![CI Status](https://img.shields.io/travis/zeushin/CollapsibleTableController.svg?style=flat)](https://travis-ci.org/Masher/CollapsibleTableController)
 [![Version](https://img.shields.io/cocoapods/v/CollapsibleTableController.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTableController)
 [![License](https://img.shields.io/cocoapods/l/CollapsibleTableController.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTableController)
 [![Platform](https://img.shields.io/cocoapods/p/CollapsibleTableController.svg?style=flat)](https://cocoapods.org/pods/CollapsibleTableController)
