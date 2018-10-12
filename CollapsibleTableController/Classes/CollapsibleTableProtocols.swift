@@ -74,7 +74,7 @@ public enum CollapsibleHeaderArrowRadians {
 
 extension CollapsibleHeaderArrowRotatable {
 
-    var rotateDuration: TimeInterval {
+    public var rotateDuration: TimeInterval {
         return 0.3
     }
 
